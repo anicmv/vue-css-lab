@@ -1,0 +1,17 @@
+/* 1) 盒模型统一 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2) 去掉默认外边距 */
+* {
+    margin: 0;
+}
+
+/* 3) 让根元素和页面撑满 */
+html,
+body {
+    height: 100%;
+}
