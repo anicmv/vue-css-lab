@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 export const pages = [
   { path: '/expandingcards', name: 'ExpandingCards', title: '可扩展卡片', component: () => import('../views/ExpandingCardsView.vue') },
   { path: '/progresssteps', name: 'ProgressSteps', title: '进度步骤', component: () => import('../views/ProgressSteps.vue') },
+  { path: '/rotatingnavanimation', name: 'RotatingNavAnimation', title: '旋转导航动画', component: () => import('../views/RotatingNavAnimation.vue') },
 ]
 
 const routes = [
