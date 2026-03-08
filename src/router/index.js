@@ -6,6 +6,7 @@ export const pages = [
   { path: '/expandingcards', name: 'ExpandingCards', title: '可扩展卡片', component: () => import('../views/ExpandingCardsView.vue') },
   { path: '/progresssteps', name: 'ProgressSteps', title: '进度步骤', component: () => import('../views/ProgressSteps.vue') },
   { path: '/rotatingnavanimation', name: 'RotatingNavAnimation', title: '旋转导航动画', component: () => import('../views/RotatingNavAnimation.vue') },
+  { path: '/navmenuhovereffect', name: 'NavMenuHoverEffect', title: '导航菜单悬停效果', component: () => import('../views/NavMenuHoverEffect.vue') },
 ]
 
 const routes = [
