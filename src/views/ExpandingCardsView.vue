@@ -41,11 +41,11 @@ const panels = [
   }
 ]
 
-// 创建一个响应式变量 ⁠activeIndex 初始值是 ⁠0
+// 创建一个响应式变量 activeIndex 初始值是 0
 // 0 表示默认第一个面板是激活状态（因为数组下标从 0 开始）
-// ⁠ref(0) 会返回一个对象：⁠{ value: 0 }
-// 在 JS 里读写要用 ⁠activeIndex.value
-// 在模板里可以直接写 ⁠activeIndex（Vue 会自动解包）
+// ref(0) 会返回一个对象：{ value: 0 }
+// 在 JS 里读写要用 activeIndex.value
+// 在模板里可以直接写 activeIndex（Vue 会自动解包）
 const activeIndex = ref(0)
 
 const setActive = index => {
