@@ -8,6 +8,7 @@ export const pages = [
   { path: '/rotatingnavanimation', name: 'RotatingNavAnimation', title: '旋转导航动画', component: () => import('../views/RotatingNavAnimation.vue') },
   { path: '/navmenuhovereffect', name: 'NavMenuHoverEffect', title: '导航菜单悬停效果', component: () => import('../views/NavMenuHoverEffect.vue') },
   { path: '/topnavbar', name: 'TopNavBar', title: '顶部导航栏', component: () => import('../views/TopNavBar.vue') },
+  { path: '/multicolumnwaterfall', name: 'MultiColumnWaterfall', title: '多列瀑布流布局', component: () => import('../views/MultiColumnWaterfall.vue') },
 ]
 
 const routes = [
