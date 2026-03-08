@@ -30,7 +30,7 @@ const images = Object.entries(modules)
   width: 100%;
   column-count: 4;
   column-gap: 5px;
-  margin: 5px 5px;
+  padding: 5px;
 }
 
 .wrapper img {
