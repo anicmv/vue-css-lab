@@ -215,7 +215,7 @@ function onNameLeave() {
   /* 绝对定位，跟随文件名单元格 */
   position: absolute;
   /* 放到文件名列右侧，间距 4px */
-  left: 50%;
+  left: calc(100% + 14px);
   /* 垂直居中对齐到当前单元格 */
   top: 50%;
   /* 配合 top 形成垂直居中 */
