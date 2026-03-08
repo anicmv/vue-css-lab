@@ -1,4 +1,5 @@
 <template>
+  <BackHome />
   <!-- 整个页面容器：背景图会随 hover 变化 -->
   <div class="page-bg" :style="{ backgroundImage: `url('${currentBg}')` }">
     <!-- 半透明列表卡片 -->
@@ -42,6 +43,7 @@
 <script setup>
 // 引入 Vue 的 ref，用于创建响应式变量
 import { ref } from 'vue'
+import BackHome from "@/components/BackHome.vue";
 
 // 使用 import.meta.glob 一次性读取本地目录中的图片资源（Vite 语法）
 const imageModules = import.meta.glob(
