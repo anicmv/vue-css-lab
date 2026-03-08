@@ -9,6 +9,7 @@ export const pages = [
   { path: '/navmenuhovereffect', name: 'NavMenuHoverEffect', title: '导航菜单悬停效果', component: () => import('../views/NavMenuHoverEffect.vue') },
   { path: '/topnavbar', name: 'TopNavBar', title: '顶部导航栏', component: () => import('../views/TopNavBar.vue') },
   { path: '/multicolumnwaterfall', name: 'MultiColumnWaterfall', title: '多列瀑布流布局', component: () => import('../views/MultiColumnWaterfall.vue') },
+  { path: '/hoverpreviewalbumlist', name: 'HoverPreviewAlbumList', title: '悬停预览相册列表', component: () => import('../views/HoverPreviewAlbumList.vue') },
 ]
 
 const routes = [
